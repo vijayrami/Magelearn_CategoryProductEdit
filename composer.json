@@ -1,0 +1,22 @@
+{
+    "name": "magelearn/module-category-product-edit",
+    "description": "Provide Category Product Edit Link at Admin for Magento 2",
+    "type": "magento2-module",
+    "require": {},
+    "authors": [
+        {
+            "name": "vijay rami",
+            "email": "vijaymrami@gmail.com"
+        }
+    ],
+    "license": "proprietary",
+    "minimum-stability": "dev",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magelearn\\CategoryProductEdit\\": ""
+        }
+    }
+}

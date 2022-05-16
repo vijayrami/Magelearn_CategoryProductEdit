@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="adminhtml_block_html_before">
+        <observer name="admin_category_product_edit_link_html_block_html_before_observer"
+        	instance="Magelearn\CategoryProductEdit\Observer\AdminhtmlBlockHtmlBeforeObserver" />
+    </event>
+</config>
